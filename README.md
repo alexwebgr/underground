@@ -21,10 +21,10 @@ You can assume all calls to checkIn and checkOut methods are consistent. That is
 
 Here is an example of how this class will be used:
 ```ruby
-s = UndergroundSystem.new
-s.check_in(1, "A", 100)
-s.check_out(1, "C", 200)
-s.get_average_time("A", "C") # => 100
+underground = UndergroundSystem.new
+underground.check_in(1, "A", 100)
+underground.check_out(1, "C", 200)
+underground.get_average_time("A", "C") # => 100
 ```
 
 ### Additional method #1
